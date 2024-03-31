@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Display from './src/components/Display';
+import Buttons from './src/components/DisplayButtons';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Display style={styles.displaySize}/>
+      <Buttons style={styles.buttonSize}/>
     </View>
   );
 }
@@ -17,4 +19,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  displaySize: {
+    
+  },
+
+  buttonSize: {
+
+  }
 });
