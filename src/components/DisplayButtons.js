@@ -2,8 +2,13 @@ import React from 'react'
 import { StyleSheet, View } from 'react-native';
 import TheButtons from './TheButtons';
 
+
+//função para display dos butões, onde se encontra a organização dos botões
 function DisplayButtons() {
   return (
+
+    //bloco de numeros que se repetem para cada linha do display dos botões
+    //nele é passado por prop as "classes" para o estilo e o valor do botão que será exibido
     <View style={styles.allButtons}>
         <View style={styles.line}>
             <TheButtons title="7" />
@@ -36,6 +41,7 @@ function DisplayButtons() {
   )
 }
 
+//Estilização do display dos botões e botão de operação
 const styles = StyleSheet.create({
     allButtons: {
       width: "100%",

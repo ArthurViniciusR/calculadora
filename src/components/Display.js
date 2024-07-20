@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 
+//função para o display com a view e o resultado da operação (apenas visual)
 function Display() {
   return (
     <View style={styles.display}>
@@ -9,6 +10,7 @@ function Display() {
   )
 }
 
+//Estilos para o Display, foi utilizado para definir tamanhos e cores
 const styles = StyleSheet.create({
   display: {
     backgroundColor: "black",
