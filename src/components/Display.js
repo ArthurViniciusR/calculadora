@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 function Display() {
   return (
     <View style={styles.display}>
-        <Text style={styles.result}>0</Text>
+        <Text style={styles.result}>00</Text>
     </View>
   )
 }
